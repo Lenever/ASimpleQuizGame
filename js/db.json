@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which represents the HTML paragraph tag",
+      "answer": "<p></p>"
+    },
+    {
+      "id": 2,
+      "question": "HTML is a",
+      "answer": "Markup Language"
+    },
+    {
+      "id": 3,
+      "question": "Line breaks can be added in HTML pages by using",
+      "answer": "<br>"
+    },
+    {
+      "id": 4,
+      "question": "Title tag is kept inside the",
+      "answer": "Head tag"
+    },
+    {
+      "id": 5,
+      "question": "How many headings does HTML use",
+      "answer": "six"
+    }
+  ]
+}

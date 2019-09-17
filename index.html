@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
+      <a class="navbar-brand" href="#top">QuizUp</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,17 +27,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#top"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Take a quiz</a>
+            <a class="nav-link" href="#main">Take a quiz</a>
           </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
-              href="#"
+              href="index1.html"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -47,17 +47,17 @@
               Questions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Create questions</a>
-              <a class="dropdown-item" href="#">Update questions</a>
-              <a class="dropdown-item" href="#">Delete questions</a>
+              <a class="dropdown-item" href="#addquestion">Create questions</a>
+              <a class="dropdown-item" href="index1.html">Update questions</a>
+              <a class="dropdown-item" href="index1.html">Delete questions</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">View all questions</a>
+              <a class="dropdown-item" href="index1.html">View all questions</a>
             </div>
           </li>
           <li class="nav-item">
             <a
               class="nav-link disabled"
-              href="#"
+              href="#contactus"
               tabindex="-1"
               aria-disabled="true"
               >Contact us</a
@@ -78,11 +78,93 @@
       </div>
     </nav>
 
-    <div class="container-fluid">
-      <h3 class="display-1">HTML 5 - Evaluate Yourself</h3>
+    <div class="container-fluid" id="landingpage">
+      <h3 class="display-1" id="headerword">HTML QUIZ</h3>
       <p class="lead">
-        Take this quiz to see how much of HTML 5 you know
+        Take a quiz to see how much of HTML 5 you know
       </p>
+    </div>
+
+    <div class="container-fluid" id="landingpage">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+
+    <div class="container-fluid" id="main">
+      <form>
+        <div class="form-check">
+          <p class="questions">Which represents the html paragraph tags</p>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios1"
+            value="option1"
+            checked
+          />
+          <label class="form-check-label" for="exampleRadios1">
+            Default radio
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios2"
+            value="option2"
+          />
+          <label class="form-check-label" for="exampleRadios2">
+            Second default radio
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios3"
+            value="option3"
+          />
+          <label class="form-check-label" for="exampleRadios3">
+            Disabled radio
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Check</button>
+      </form>
+    </div>
+
+    <div id="addquestion">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Question</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Type question here"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Direct questions please</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Answer</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Type the correct answer to your question here"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
+    </div>
+
+    <div id="contactus">
+      <p>onuorah.ikechukwuvictor@gmail.com</p>
+      <p>+2347037373502</p>
     </div>
 
     <script
@@ -91,11 +173,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/index.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
