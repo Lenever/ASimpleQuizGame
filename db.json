@@ -24,6 +24,11 @@
       "id": 5,
       "question": "How many headings does HTML use",
       "answer": "six"
+    },
+    {
+      "question": "How many body tags are needed in an html element",
+      "answer": "one",
+      "id": 6
     }
   ]
 }

@@ -47,7 +47,7 @@
               Questions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#addquestion">Create questions</a>
+              <a class="dropdown-item" href="#addquestions">Create questions</a>
               <a class="dropdown-item" href="index1.html">Update questions</a>
               <a class="dropdown-item" href="index1.html">Delete questions</a>
               <div class="dropdown-divider"></div>
@@ -134,13 +134,13 @@
       </form>
     </div>
 
-    <div id="addquestion">
-      <form>
+    <div class="container-fluid" id="addquestions">
+      <form id="addquestion">
         <div class="form-group">
           <label for="exampleInputEmail1">Question</label>
           <input
-            type="email"
-            class="form-control"
+            type="text"
+            class="question"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Type question here"
@@ -152,13 +152,13 @@
         <div class="form-group">
           <label for="exampleInputPassword1">Answer</label>
           <input
-            type="password"
-            class="form-control"
+            type="text"
+            class="answer"
             id="exampleInputPassword1"
             placeholder="Type the correct answer to your question here"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Add</button>
+        <button type="submit" class="btn btn-primary" value="Go">Add</button>
       </form>
     </div>
 
@@ -172,7 +172,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/script.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
