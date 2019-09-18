@@ -29,6 +29,11 @@
       "question": "How many body tags are needed in an html element",
       "answer": "one",
       "id": 6
+    },
+    {
+      "question": "What is HTML",
+      "answer": "Hyper Text Markup Language",
+      "id": 7
     }
   ]
 }

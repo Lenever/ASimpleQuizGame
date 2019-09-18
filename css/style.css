@@ -16,6 +16,7 @@ body {
 #main {
   color: white;
   text-align: left;
+  background-color: black;
 }
 
 #addquestion {
@@ -30,16 +31,31 @@ body {
 }
 
 #headerword {
-  color: skyblue;
+  color: wheat;
 }
 
 .lead {
   font-style: italic;
   color: aquamarine;
+  font-size: 12px;
 }
 
 .questions {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   font-weight: bolder;
+}
+
+#quest-li {
+  color: whitesmoke;
+}
+
+h1 {
+  color: wheat;
+  text-align: center;
+}
+
+h2 {
+  color: bisque;
+  text-align: center;
 }

@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#addquestion").submit(function(event) {
+    event.preventDefault();
     if ($(".question").val() !== "" && $(".answer").val() !== "") {
       const question = $(".question").val();
       const answer = $(".answer").val();
@@ -21,6 +22,21 @@ $(document).ready(function() {
           alert("Error" + msg);
         });
     }
-    event.preventDefault();
+  });
+
+  $.get("http://localhost:3000/questions", function(data) {
+    console.log(data);
+
+    for (let i = 0; i < data.length; i++) {
+      var question = data[i]["question"];
+      $("#quest-li").append("<li>" + question + "</li>");
+    }
+  });
+
+  $.get("http://localhost:3000/questions", function(data) {
+    for (let j = 0; i < data.length; i++) {
+      var question = data[i]["question"];
+      var answer = data[i]["answer"];
+    }
   });
 });
