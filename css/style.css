@@ -16,7 +16,7 @@ body {
 #main {
   color: white;
   text-align: left;
-  background-color: black;
+  background-color: dimgray;
 }
 
 #addquestion {
@@ -40,7 +40,7 @@ body {
   font-size: 12px;
 }
 
-.questions {
+.quizquest {
   font-size: 20px;
   text-align: left;
   font-weight: bolder;
@@ -58,4 +58,19 @@ h1 {
 h2 {
   color: bisque;
   text-align: center;
+}
+
+label {
+  color: antiquewhite;
+}
+
+hr {
+  height: 1px;
+  color: goldenrod;
+  background-color: goldenrod;
+  border: none;
+}
+
+.form-group {
+  font-weight: bolder;
 }

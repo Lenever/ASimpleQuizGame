@@ -2,38 +2,28 @@
   "questions": [
     {
       "id": 1,
-      "question": "Which represents the HTML paragraph tag",
-      "answer": "<p></p>"
-    },
-    {
-      "id": 2,
       "question": "HTML is a",
       "answer": "Markup Language"
     },
     {
-      "id": 3,
-      "question": "Line breaks can be added in HTML pages by using",
-      "answer": "<br>"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "question": "Title tag is kept inside the",
       "answer": "Head tag"
     },
     {
-      "id": 5,
+      "id": 3,
       "question": "How many headings does HTML use",
       "answer": "six"
     },
     {
       "question": "How many body tags are needed in an html element",
       "answer": "one",
-      "id": 6
+      "id": 4
     },
     {
       "question": "What is HTML",
       "answer": "Hyper Text Markup Language",
-      "id": 7
+      "id": 5
     }
   ]
 }

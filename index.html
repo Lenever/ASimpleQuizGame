@@ -81,69 +81,24 @@
     <div class="container-fluid" id="landingpage">
       <h3 class="display-1" id="headerword">HTML QUIZ</h3>
       <p class="lead">
-        Take a quiz to see how much of HTML 5 you know
+        <marquee class="display-4"
+          >Take a quiz to see how much of HTML 5 you know</marquee
+        >
       </p>
-    </div>
-
-    <div class="container-fluid" id="landingpage">
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-    </div>
-
-    <div id="quest">
-      <ol id="quest-li"></ol>
     </div>
 
     <div class="container-fluid" id="main">
       <h2>Quiz Up</h2>
-      <form id="quiz"></form>
       <form>
-        <div class="form-check">
-          <p class="questions">Which represents the html paragraph tags</p>
-          <input
-            class="form-check-input"
-            type="radio"
-            name="exampleRadios"
-            id="exampleRadios1"
-            value="option1"
-            checked
-          />
-          <label class="form-check-label" for="exampleRadios1">
-            Default radio
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="exampleRadios"
-            id="exampleRadios2"
-            value="option2"
-          />
-          <label class="form-check-label" for="exampleRadios2">
-            Second default radio
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="exampleRadios"
-            id="exampleRadios3"
-            value="option3"
-          />
-          <label class="form-check-label" for="exampleRadios3">
-            Disabled radio
-          </label>
-        </div>
-        <button type="submit" class="btn btn-primary">Check</button>
+        <ol id="quiz"></ol>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
 
     <div class="container-fluid" id="addquestions">
       <form id="addquestion">
         <div class="form-group">
-          <label for="exampleInputEmail1">Question</label>
+          <label for="exampleInputEmail1" class="text-dark">Question</label>
           <input
             type="text"
             class="question"
@@ -156,7 +111,7 @@
           >
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Answer</label>
+          <label for="exampleInputPassword1" class="text-dark">Answer</label>
           <input
             type="text"
             class="answer"
